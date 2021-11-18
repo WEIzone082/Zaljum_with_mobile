@@ -1,0 +1,624 @@
+body {
+  margin: 0;
+  background-color: rgb(255, 252, 236);
+}
+
+/* Navbar */
+
+nav {
+  width: 100%;
+  height: 80px;
+  background: url("../sources/navbar.png");
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#nav_logo {
+  width: 153px;
+  height: 63px;
+}
+
+#nav_link_carrier {
+  width: 43%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav_links {
+  font-family: "Noto Serif TC", serif;
+  font-size: 1.5em;
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  transition: 0.25s;
+}
+
+.nav_links:hover {
+  text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+  transform: translateY(-0.1em);
+}
+
+#nav_link_carrier .door {
+  font-size: 2em;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+#nav_user_bag {
+  width: 9%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#nav_user_bag ion-icon {
+  color: black;
+  font-size: 2em;
+}
+
+/* Navbar ends */
+
+/* footer */
+
+footer {
+  background-color: rgb(1, 33, 64);
+  width: 100%;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+#footer_links {
+  width: 16%;
+}
+
+#social_links {
+  width: 60%;
+  margin: 0 auto 10px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+#social_links ion-icon {
+  color: white;
+  font-size: 1.5em;
+}
+
+#term_contact_links {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 5px auto 5px auto;
+}
+
+.footer_link {
+  text-decoration: none;
+  color: white;
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 200;
+  font-size: 0.8em;
+}
+
+.footer_text {
+  color: white;
+  font-size: 0.5em;
+  text-align: center;
+}
+
+/*footer ends*/
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.taipei_city {
+  width: 100%;
+  height: 180px;
+  background-image: url("../sources/tpebk.png");
+  background-size: cover;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.taipei_city p {
+  font-family: "Noto Serif TC", serif;
+  font-weight: 800;
+  font-size: 50px;
+  color: white;
+}
+
+.brand_intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 850px;
+  height: 600px;
+  border-bottom: 2px solid black;
+  padding: 10px;
+}
+
+.brand_name {
+  text-align: center;
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 800;
+  font-size: 3.5em;
+  color: black;
+}
+
+.introduction {
+  text-align: center;
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.new_arr_carrier {
+  width: 950px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.new_arr {
+  display: flex;
+  width: 950px;
+  justify-content: space-between;
+}
+
+.product_block {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product_block img {
+  width: 300px;
+  height: auto;
+}
+
+.prod_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.brand {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.name {
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 3px;
+}
+
+.price {
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 3px;
+  margin-bottom: 35px;
+}
+
+.atc {
+  border-radius: 4%;
+  background-color: rgb(139, 69, 19);
+  color: aliceblue;
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 500;
+}
+
+.atc p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.tc {
+  font-weight: 700;
+}
+
+.gt_shop {
+  text-align: end;
+  width: 950px;
+  color: rgb(0, 59, 115);
+  font-family: "Noto Serif TC", serif;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.block_name {
+  font-family: "Noto Serif TC", serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 2px;
+  margin-left: 10px;
+}
+
+.block_name p {
+  margin-bottom: 50px;
+}
+
+.brand_news {
+  margin-top: 20px;
+}
+
+.news_block {
+  width: 930px;
+  height: 250px;
+  background-color: rgba(0, 0, 0, 0.8);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  transition: 0.25s;
+  margin-bottom: 8px;
+  font-family: "Noto Serif TC", serif;
+  color: white;
+}
+
+.news_block:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.news_text {
+  width: 487px;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+.intro {
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  margin-left: 35px;
+}
+
+.b1 {
+  background-image: url("../sources/Frame3.png");
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.b2 {
+  background-image: url("../sources/Frame1.png");
+  display: flex;
+  flex-direction: column;
+}
+
+.b3 {
+  background-image: url("../sources/Frame2.png");
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.mobile {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  #nav_logo,
+  #nav_link_carrier,
+  #nav_user_bag,
+  #footer_links,
+  .footer_address,
+  .brand_news {
+    display: none;
+  }
+
+  .mobile {
+    display: initial;
+  }
+
+  /*media navbar*/
+
+  nav {
+    display: block;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+
+  .nav_backboard {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #mobile_nav_logo {
+    width: 14.5px;
+    height: 49px;
+    margin-left: 30px;
+  }
+
+  #nav_burger {
+    transform: scale(0.75);
+    margin-right: 10px;
+  }
+
+  .nav_popper {
+    display: initial;
+    background-color: rgb(1, 24, 47);
+    color: aliceblue;
+    opacity: 0;
+    height: calc(100vh - 70px);
+    width: 100vw;
+    position: fixed;
+    transition: 0.3s ease-in;
+    transform: translateX(100vh);
+    z-index: 3;
+  }
+
+  .pop_active {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .nav_pop_backboard {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 10;
+  }
+
+  .nav_pop_doors {
+    border-top: 0.2px solid rgba(250, 250, 250, 0.3);
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .nav_pop_link_carrier {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .nav_pop_link {
+    text-decoration: none;
+    color: white;
+    font-family: "Noto Serif TC", serif;
+    font-weight: 600;
+    font-size: 42px;
+    margin-left: 35px;
+  }
+
+  .nav_store_cats {
+    margin-top: 10px;
+    margin-left: 40px;
+  }
+
+  .nav_store_cats p {
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 25px;
+    color: rgba(250, 250, 250, 0.5);
+  }
+
+  .cat_doors {
+    display: inline-block;
+  }
+
+  .nav_cat {
+    text-decoration: none;
+    color: white;
+    font-family: "Noto Serif TC", serif;
+    font-weight: 300;
+    font-size: 18px;
+  }
+
+  .nav_pop_social_block {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav_pop_social_carrier {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+  }
+
+  .nav_social_icons {
+    font-size: 2.5em;
+    margin: 0 auto;
+  }
+
+  .social_hint {
+    font-size: 1.3em;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .inline_logo_nav {
+    display: inline-block;
+    transform: scale(0.35);
+  }
+
+  .mobile_user_bag {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mobile_user_bag ion-icon {
+    font-size: 1.75em;
+    color: black;
+  }
+
+  .mobile_nav_left {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+  }
+  /*mobile nav ends*/
+
+  /*mobile footer */
+  footer {
+    height: 300px;
+  }
+
+  .footer_content {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .footer_text {
+    color: rgba(250, 250, 250, 0.6);
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .mobile_contact_links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 700;
+    height: 85%;
+  }
+
+  .mobile_address {
+    color: white;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 200;
+    font-size: 0.8em;
+  }
+  /*web footer ends*/
+
+  .taipei_city {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .taipei_city p {
+    font-size: 33px;
+  }
+
+  .brand_intro {
+    width: 90vw;
+    justify-content: space-around;
+    height: 500px;
+  }
+
+  .brand_name {
+    font-size: 2em;
+  }
+
+  .brand_logo {
+    width: 75vw;
+    height: auto;
+  }
+
+  .introduction {
+    font-size: 18px;
+  }
+
+  .b_news {
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .content img {
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .news_title {
+    font-size: 22px;
+    font-weight: 800;
+    font-family: "Noto Serif TC", serif;
+  }
+
+  .news_title p {
+    margin-top: 10px;
+    margin-bottom: 2px;
+  }
+
+  .new_arr_carrier {
+    width: 99vw;
+    align-items: center;
+  }
+
+  .new_arr {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .product_block {
+    width: 170px;
+    text-align: center;
+    margin-bottom: 10px;
+    display: flex;
+  }
+
+  .product_block img {
+    width: 150px;
+    height: auto;
+  }
+
+  .sug_brand {
+    font-size: 12px;
+  }
+
+  .sug_name {
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Noto Sans TC", sans-serif;
+  }
+
+  .sug_price {
+    margin-bottom: 5px;
+  }
+
+  .atc {
+    transform: scale(0.8);
+  }
+}

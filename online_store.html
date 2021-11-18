@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/hamburgers.css">
+    <link rel="stylesheet" href="css/online_store.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <img src="sources/logo.png" alt="logo" id="nav_logo" onclick="location.href='home.html';" style="cursor: pointer;">
+        
+        <div id="nav_link_carrier">
+            <a href="story_home.html" class="nav_links">最新故事</a>
+            <p class="door">|</p>
+            <a href="online_store.html" class="nav_links">線上商城</a>
+            <p class="door">|</p>
+            <a href="brand_map.html" class="nav_links">品牌地圖</a>
+            <p class="door">|</p>
+            <a href="about.html" class="nav_links">關於我們</a>
+        </div>
+
+        <div id="nav_user_bag">
+            <a href="#"><ion-icon name="person-outline"></ion-icon></a>
+            <a href="#"><ion-icon name="bag-outline"></ion-icon></a>
+        </div>
+
+        <div class="mobile nav_backboard">
+    
+            <img src="sources/mizu.png" onclick="location.href='home.html';" alt="" id="mobile_nav_logo">
+
+            <div class="mobile_nav_left">
+                <div class="mobile_user_bag">
+                    <a href="#"><ion-icon name="person-outline"></ion-icon></a>
+                    <a href="#"><ion-icon name="bag-outline"></ion-icon></a>
+                </div>
+    
+                <button class="hamburger hamburger--slider" type="button" id="nav_burger">
+                    <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+    </nav>
+
+    <div class="mobile nav_popper">
+        <div class="nav_pop_backboard">
+            <div class="nav_pop_links">
+                <div class="nav_pop_link_carrier">
+                    <a href="story_home.html" class="nav_pop_link">最新故事</a>
+                </div>
+                <div class="nav_pop_doors"></div>
+                <div class="nav_pop_link_carrier">
+                    <a href="online_store.html" class="nav_pop_link">線上商城</a>
+                    <div class="nav_store_cats">
+                        <a href="story_home.html" class="nav_cat">衣物服飾</a>
+                        <p>|</p>
+                        <a href="story_home.html" class="nav_cat">裝備配件</a>
+                        <p>|</p>
+                        <a href="story_home.html" class="nav_cat">食品雜貨</a>
+                    </div>
+                </div>
+                <div class="nav_pop_doors"></div>
+                <div class="nav_pop_link_carrier">
+                    <a href="brand_map.html" class="nav_pop_link">品牌地圖</a>
+                </div>
+                <div class="nav_pop_doors"></div>
+                <div class="nav_pop_link_carrier">
+                    <a href="about.html" class="nav_pop_link">關於我們</a>
+                </div>
+            </div>
+            <div class="nav_pop_social_block">
+                <div class="social_hint">
+                    <img src="sources/white zal text.svg" alt="" class="inline_logo_nav">
+                </div>
+                <div class="nav_pop_social_carrier">
+                    <div class="nav_social_icons"><ion-icon name="logo-facebook"></ion-icon></div>
+                    <div class="nav_social_icons"><ion-icon name="logo-instagram"></ion-icon></div>
+                    <div class="nav_social_icons"><ion-icon name="logo-youtube"></ion-icon></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="shop_bar">
+        <div class="options">
+            <div class="newest">
+                <p>最新上架</p>
+            </div>
+            <div class="by_cat_wrapper">
+                <div class="by_cat">
+                    產品類別 &bigvee;
+                </div>
+                <div class="cats">
+                    <a href="#" class="cat">服裝</a>
+                    <a href="" class="cat">配件</a>
+                    <a href="" class="cat">食品雜貨</a>
+                </div>
+            </div>
+
+            <div class="by_brand_wrapper">
+                <div class="by_brand">
+                    品牌列表 &bigvee;
+                </div>
+                <div class="brand_inner">
+                    <form action="#">
+                        <label for="brand_search"><img src="sources/loupe.png" alt="" class="search_icon"></label>
+                        <input type="text" id="brand_search" placeholder="輸入品牌名稱">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="searcher">
+            <form action="#">
+                <label for="product_search"><img src="sources/loupe.png" alt="" class="search_icon"></label>
+                <input type="text" id="product" placeholder="輸入產品關鍵字">
+            </form>
+        </div>
+    </div>
+
+    <section class="loty">
+        <div class="loty_pic">
+            <img src="sources/loty.jpg" alt="">
+        </div>
+
+        <div class="loty_inner">
+            <p class="loty_title">Look of the week</p>
+            <p class="feature">By <span class="featured">Retro Dandy</span></p>
+            <div class="loty_items">
+                <div class="loty_item">
+                    <img src="sources/lotyup.jpg" alt="">
+                </div>
+                <div class="loty_item">
+                    <img src="sources/lotybot.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="pc block_name">
+        <p>產品分類</p>
+    </section>
+
+    <section class="pc categories">
+        <div class="pc category app">
+            衣物服飾
+        </div>
+        <div class="pc category acc">
+            裝備配件
+        </div>
+        <div class="pc category goo">
+            食品雜貨
+        </div>
+    </section>
+
+    
+
+    <section class="block_name">
+        <p>最新上架</p>
+    </section>
+
+    <section class="new_arr_wrapper">
+
+        <button class="prev s_arrow">&#706;</button>
+
+        <section class="ws_slick_container">
+            <div class="ws_slick_content">
+                <img src="sources/ws/ws_p1 .jpg" alt="">
+            </div>
+
+            <div class="ws_slick_content">
+                <img src="sources/ws/ws_p2.jpg" alt="">
+            </div>
+
+            <div class="ws_slick_content">
+                <img src="sources/ws/ws_p3.jpg" alt="">
+            </div>
+
+            <div class="ws_slick_content">
+                <img src="sources/ws/ws_p4.jpg" alt="">
+            </div>
+
+            <div class="ws_slick_content">
+                <img src="sources/ws/ws_p5.jpg" alt="">
+            </div>
+
+            <div class="ws_slick_content">
+                <img src="sources/ws/ws_p6.jpg" alt="">
+            </div>
+
+            <div class="ws_slick_content">
+                <img src="sources/ws/ws_p7.jpg" alt="">
+            </div>
+        </section>
+
+        <button class="next s_arrow">&#707;</button>
+    </section>
+
+    <section class="mobile m_ws_container">
+        <div class="m_ws_content">
+            <img src="sources/ws/ws_p1 .jpg" alt="">
+        </div>
+
+        <div class="m_ws_content">
+            <img src="sources/ws/ws_p2.jpg" alt="">
+        </div>
+
+        <div class="m_ws_content">
+            <img src="sources/ws/ws_p3.jpg" alt="">
+        </div>
+
+        <div class="m_ws_content">
+            <img src="sources/ws/ws_p4.jpg" alt="">
+        </div>
+
+        <div class="m_ws_content">
+            <img src="sources/ws/ws_p5.jpg" alt="">
+        </div>
+
+        <div class="m_ws_content">
+            <img src="sources/ws/ws_p6.jpg" alt="">
+        </div>
+
+        <div class="m_ws_content">
+            <img src="sources/ws/ws_p7.jpg" alt="">
+        </div>
+    </section>
+
+    <footer>
+        <div id="footer_links">
+
+            <div id="social_links">
+                <a href="https://www.facebook.com/" ><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="https://www.instagram.com/" ><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://www.youtube.com/" ><ion-icon name="logo-youtube"></ion-icon></a>
+            </div>
+
+            <div id="term_contact_links">
+                <a href="#" class="footer_link">關於我們</a>
+                <a href="#" class="footer_link">與我們聯絡</a>
+                <a href="#" class="footer_link">條款細則</a>
+            </div>
+
+        </div>
+
+        <div class="footer_address">
+            <p class="footer_text">104台北市中山區南京東路三段219號5樓</p>
+            <p class="footer_text">02-6969-6966</p>
+        </div>
+
+        <div class="mobile footer_content">
+            <div class="mobile_contact_links">
+                <a href="#" class="footer_link">關於我們</a>
+                <a href="#" class="footer_link">與我們聯絡</a>
+                <a href="#" class="footer_link">條款細則</a>
+            </div>
+
+            <div class="mobile_address">
+                <p>104<br>台北市中山區<br>南京東路三段<br>219號5樓<br>02 2712 0589</p>
+            </div>
+        </div>
+
+        <p class="footer_text">本網站為緯育TibaMe前端設計工程師班第68期學員專題作品，本平台僅供學習、展示之用。
+            若有侵權疑慮，您可以私訊[TibaMe-前端設計工程師養成班]，後續會由專人協助處理。
+            ※ [TibaMe-前端設計工程師養成班]請超連結https://www.facebook.com/webindex/</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/online_store.js"></script>
+
+</body>
+</html>

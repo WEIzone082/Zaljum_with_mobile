@@ -1,0 +1,655 @@
+body {
+  margin: 0;
+  background-color: rgb(254, 250, 231);
+}
+
+.mobile {
+  display: none;
+}
+
+/* Navbar */
+
+nav {
+  width: 100%;
+  height: 80px;
+  background: url("../sources/navbar.png");
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#nav_logo {
+  width: 153px;
+  height: 63px;
+}
+
+#nav_link_carrier {
+  width: 43%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav_links {
+  font-family: "Noto Serif TC", serif;
+  font-size: 1.5em;
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  transition: 0.25s;
+}
+
+.nav_links:hover {
+  text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+  transform: translateY(-0.1em);
+}
+
+#nav_link_carrier .door {
+  font-size: 2em;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+#nav_user_bag {
+  width: 9%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#nav_user_bag ion-icon {
+  color: black;
+  font-size: 2em;
+}
+
+/* Navbar ends */
+
+/* footer */
+
+footer {
+  background-color: rgb(1, 33, 64);
+  width: 100%;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+#footer_links {
+  width: 16%;
+}
+
+#social_links {
+  width: 60%;
+  margin: 0 auto 10px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+#social_links ion-icon {
+  color: white;
+  font-size: 1.5em;
+}
+
+#term_contact_links {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 5px auto 5px auto;
+}
+
+.footer_link {
+  text-decoration: none;
+  color: white;
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 200;
+  font-size: 0.8em;
+}
+
+.footer_text {
+  color: white;
+  font-size: 0.5em;
+  text-align: center;
+}
+
+/*footer ends*/
+
+.banner {
+  width: 100%;
+  height: auto;
+}
+
+.banner_inner {
+  width: 100%;
+}
+
+.banner_content {
+  width: 100%;
+}
+
+.banner_content img {
+  width: 100%;
+  height: auto;
+}
+
+.owl-carousel {
+  position: relative;
+}
+
+.c-dots {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 12%;
+  height: 80%;
+  top: 0;
+  bottom: 0;
+  right: 10px;
+  margin: auto 0;
+}
+
+.c-dot {
+  height: 25%;
+  font-size: 5em;
+  font-family: "Black Ops One", cursive;
+  background: transparent;
+  color: rgba(0, 0, 0, 0.5);
+  transition: 0.25s;
+  border: none;
+  box-sizing: initial;
+}
+
+.active {
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 7em;
+}
+
+.new_story {
+  width: 950px;
+  margin: 50px auto 10px auto;
+}
+
+.block_name {
+  font-family: "Noto Serif TC", serif;
+  font-weight: 700;
+  font-size: 55px;
+  margin-top: 2px;
+  margin-left: 10px;
+}
+
+.block_name p {
+  margin-bottom: 30px;
+}
+
+.story_carrier {
+  display: flex;
+}
+
+.story_cover {
+  width: 450px;
+  height: 300px;
+}
+
+.story_intro {
+  margin-left: 30px;
+}
+
+.vol {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: darkgray;
+  font-style: italic;
+  margin-bottom: 2px;
+  margin-left: 10px;
+}
+
+.title {
+  font-family: "Noto Serif TC", serif;
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  margin-left: 10px;
+}
+
+.subtitle {
+  font-family: "Noto Serif TC", serif;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 5px;
+  color: rgb(153, 1, 1);
+  margin-left: 20px;
+}
+
+.intro {
+  font-family: "Noto Serif TC", serif;
+  width: 450px;
+  font-weight: 400;
+  font-size: 17px;
+  width: 500px;
+  margin-left: 10px;
+}
+
+.que {
+  font-family: "Noto Sans TC", sans-serif;
+  color: navy;
+  text-decoration: underline;
+  font-weight: 200;
+  font-size: 13px;
+}
+
+.new_arr_carrier {
+  width: 950px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.new_arr_carrier .block_name {
+  margin-top: 80px;
+}
+
+.new_arr {
+  display: flex;
+  width: 950px;
+  justify-content: space-between;
+}
+
+.product_block {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product_block img {
+  width: 300px;
+  height: 300px;
+}
+
+.prod_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.brand {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.name {
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 3px;
+}
+
+.price {
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 3px;
+  margin-bottom: 35px;
+}
+
+.atc {
+  border-radius: 4%;
+  background-color: rgb(139, 69, 19);
+  color: aliceblue;
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 500;
+}
+
+.atc p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.tc {
+  font-weight: 700;
+}
+
+.gt_shop {
+  text-align: end;
+  width: 950px;
+  color: rgb(0, 59, 115);
+  font-family: "Noto Serif TC", serif;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+@media (max-width: 480px) {
+  #nav_logo,
+  #nav_link_carrier,
+  #nav_user_bag,
+  #footer_links,
+  .footer_address,
+  .new_arr_carrier,
+  .PC {
+    display: none;
+  }
+
+  .mobile {
+    display: inherit;
+  }
+
+  /*media navbar*/
+
+  nav {
+    height: 70px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    transition: 0.9s;
+  }
+
+  .nav_backboard {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #mobile_nav_logo {
+    width: 14.5px;
+    height: 49px;
+    margin-left: 30px;
+  }
+
+  #nav_burger {
+    transform: scale(0.75);
+    margin-right: 10px;
+  }
+
+  .nav_popper {
+    display: initial;
+    background-color: rgb(1, 24, 47);
+    color: aliceblue;
+    opacity: 0;
+    height: calc(100vh - 70px);
+    width: 100vw;
+    position: fixed;
+    transition: 0.3s ease-in;
+    transform: translateX(100vh);
+    z-index: 3;
+  }
+
+  .pop_active {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .nav_pop_backboard {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 10;
+  }
+
+  .nav_pop_doors {
+    border-top: 0.2px solid rgba(250, 250, 250, 0.3);
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .nav_pop_link_carrier {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .nav_pop_link {
+    text-decoration: none;
+    color: white;
+    font-family: "Noto Serif TC", serif;
+    font-weight: 600;
+    font-size: 42px;
+    margin-left: 35px;
+  }
+
+  .nav_store_cats {
+    margin-top: 10px;
+    margin-left: 40px;
+  }
+
+  .nav_store_cats p {
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 25px;
+    color: rgba(250, 250, 250, 0.5);
+  }
+
+  .cat_doors {
+    display: inline-block;
+  }
+
+  .nav_cat {
+    text-decoration: none;
+    color: white;
+    font-family: "Noto Serif TC", serif;
+    font-weight: 300;
+    font-size: 18px;
+  }
+
+  .nav_pop_social_block {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav_pop_social_carrier {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+  }
+
+  .nav_social_icons {
+    font-size: 2.5em;
+    margin: 0 auto;
+  }
+
+  .social_hint {
+    font-size: 1.3em;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .inline_logo_nav {
+    display: inline-block;
+    transform: scale(0.35);
+  }
+
+  .mobile_user_bag {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mobile_user_bag ion-icon {
+    font-size: 1.75em;
+    color: black;
+  }
+
+  .mobile_nav_left {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+  }
+  /*mobile nav ends*/
+
+  /*mobile footer */
+  footer {
+    height: 300px;
+  }
+
+  .footer_content {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .footer_text {
+    color: rgba(250, 250, 250, 0.6);
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .mobile_contact_links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 700;
+    height: 85%;
+  }
+
+  .mobile_address {
+    color: white;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 200;
+    font-size: 0.8em;
+  }
+  /*web footer ends*/
+
+  .u_f_s {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../sources/fancy_background.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: 0.5s ease;
+  }
+
+  #fs_itself {
+    width: 40%;
+    height: auto;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 3000;
+    animation: fancy 4s ease-in-out;
+  }
+
+  @keyframes fancy {
+    0% {
+      stroke-dashoffset: 3000;
+    }
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  .ufs_text {
+    font-size: 1.5em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+  }
+
+  .mobile_content {
+    width: 100vw;
+  }
+
+  .mobile_content img {
+    width: 100%;
+    height: auto;
+  }
+
+  .new_story {
+    width: 100vw;
+  }
+
+  .story_cover {
+    width: 100%;
+    height: auto;
+  }
+
+  .block_name {
+    font-size: 40px;
+    margin-left: 15px;
+  }
+
+  .story_carrier {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .story_intro {
+    margin-left: 5px;
+    width: 85%;
+  }
+
+  .intro {
+    width: 90%;
+  }
+
+  .vol {
+    font-size: 12px;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+  }
+
+  .intro p {
+    font-size: 14px;
+  }
+
+  .m_new_arr {
+    width: 100vw;
+  }
+
+  .m_new_arr_slick_wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .m_new_arr_slick {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .m_prod {
+    width: 200px;
+    margin: auto 10px;
+  }
+
+  .m_prod img {
+    width: 100%;
+    height: auto;
+  }
+
+  .s_arrow {
+    height: 70px;
+    font-size: 40px;
+    font-weight: 800;
+    background: transparent;
+    border: none;
+    padding: 0;
+  }
+}

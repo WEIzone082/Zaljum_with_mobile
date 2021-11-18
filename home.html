@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/hamburgers.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <img src="sources/logo.png" alt="logo" id="nav_logo" onclick="location.href='home.html';" style="cursor: pointer;">
+        
+        <div id="nav_link_carrier">
+            <a href="story_home.html" class="nav_links">最新故事</a>
+            <p class="door">|</p>
+            <a href="online_store.html" class="nav_links">線上商城</a>
+            <p class="door">|</p>
+            <a href="brand_map.html" class="nav_links">品牌地圖</a>
+            <p class="door">|</p>
+            <a href="about.html" class="nav_links">關於我們</a>
+        </div>
+
+        <div id="nav_user_bag">
+            <a href="#"><ion-icon name="person-outline"></ion-icon></a>
+            <a href="#"><ion-icon name="bag-outline"></ion-icon></a>
+        </div>
+
+        <div class="mobile nav_backboard">
+    
+            <img src="sources/mizu.png" onclick="location.href='home.html';" alt="" id="mobile_nav_logo">
+
+            <div class="mobile_nav_left">
+                <div class="mobile_user_bag">
+                    <a href="#"><ion-icon name="person-outline"></ion-icon></a>
+                    <a href="#"><ion-icon name="bag-outline"></ion-icon></a>
+                </div>
+    
+                <button class="hamburger hamburger--slider" type="button" id="nav_burger">
+                    <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+    </nav>
+
+    <div class="mobile nav_popper">
+        <div class="nav_pop_backboard">
+            <div class="nav_pop_links">
+                <div class="nav_pop_link_carrier">
+                    <a href="story_home.html" class="nav_pop_link">最新故事</a>
+                </div>
+                <div class="nav_pop_doors"></div>
+                <div class="nav_pop_link_carrier">
+                    <a href="online_store.html" class="nav_pop_link">線上商城</a>
+                    <div class="nav_store_cats">
+                        <a href="story_home.html" class="nav_cat">衣物服飾</a>
+                        <p>|</p>
+                        <a href="story_home.html" class="nav_cat">裝備配件</a>
+                        <p>|</p>
+                        <a href="story_home.html" class="nav_cat">食品雜貨</a>
+                    </div>
+                </div>
+                <div class="nav_pop_doors"></div>
+                <div class="nav_pop_link_carrier">
+                    <a href="brand_map.html" class="nav_pop_link">品牌地圖</a>
+                </div>
+                <div class="nav_pop_doors"></div>
+                <div class="nav_pop_link_carrier">
+                    <a href="about.html" class="nav_pop_link">關於我們</a>
+                </div>
+            </div>
+            <div class="nav_pop_social_block">
+                <div class="social_hint">
+                    <img src="sources/white zal text.svg" alt="" class="inline_logo_nav">
+                </div>
+                <div class="nav_pop_social_carrier">
+                    <div class="nav_social_icons"><ion-icon name="logo-facebook"></ion-icon></div>
+                    <div class="nav_social_icons"><ion-icon name="logo-instagram"></ion-icon></div>
+                    <div class="nav_social_icons"><ion-icon name="logo-youtube"></ion-icon></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mobile u_f_s">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 188.33 638.11" id="fs_itself"><defs><style>.cls-1,.cls-2,.cls-3{fill:none;stroke:#000;stroke-miterlimit:10;}.cls-1{stroke-width:18px;}.cls-2{stroke-width:15px;}.cls-3{stroke-width:9px;}</style></defs><title>mizu_fs</title><g id="圖層_2" data-name="圖層 2"><g id="圖層_1-2" data-name="圖層 1"><g id="graphic"><path class="cls-1" d="M66.45,635.71c13.78-49.76,36-99,49.19-148.93-14.19-120.25-28.39-240.51-44-359.68C86.52,85.59,102.69,44.17,117.38,3"/><path class="cls-2" d="M153.91,279.36c-9.24-40.66-9.81-83.22-18.37-124,4.47-29.22,19-55.4,27.72-84"/><path class="cls-2" d="M145.07,616.87c11.38-34.53,21.39-66.92,34.35-102.66.38-3.52,2.05-7,1.14-10.55-2.84-9.64-3.11-19.11-4.55-29.84-1.71-32-6.26-61.84-9.35-92.79"/><path class="cls-3" d="M112.27,605.49c11.32-37.2,29.44-72.58,34.92-111.18-7-54.81-10.32-108.18-18.38-165.43-7.42-63.1-16.77-120.43-25.48-183.62l1-9.38c10.53-25.27,16.94-48.45,27.54-73.11"/><path class="cls-2" d="M16.18,572.41c11.39-34.53,21.39-66.92,34.35-102.66.38-3.51,2-6.94,1.15-10.55-2.85-9.64-3.12-19.11-4.55-29.84-1.72-32-6.27-61.84-9.35-92.79"/><path class="cls-2" d="M26,238.94C16.75,198.29,16.17,155.73,7.62,115c4.47-29.22,19-55.4,27.71-84"/><path class="cls-3" d="M48.5,585.84c11.32-37.2,29.43-72.58,34.92-111.19C76.39,419.84,73.1,366.47,65,309.23c-7.43-63.1-16.78-120.43-25.49-183.62l1-9.38C51.09,91,57.5,67.77,68.11,43.12"/></g></g></g></svg>
+        <div class="ufs_text">
+            <p>SCROLL DOWN</p>
+        </div>
+    </div>
+
+    <div class="banner_wrapper">
+
+        <div class="PC banner">
+
+            <div class="banner_inner owl-carousel">
+                <div class="banner_content">
+                    <img src="sources/page1.jpg" alt=""onclick="location.href='brandpage.html';">
+                </div>
+                <div class="banner_content">
+                    <img src="sources/page2.jpg" alt="">
+                </div>
+                <div class="banner_content">
+                    <img src="sources/page3.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="mobile banner">
+
+            <div class="mobile_carousell">
+                <div class="mobile_content">
+                    <img src="sources/m_p1.jpg" alt="" onclick="location.href='brandpage.html';">
+                </div>
+                <div class="mobile_content">
+                    <img src="sources/m_p2.jpg" alt="">
+                </div>
+                <div class="mobile_content">
+                    <img src="sources/m_p3.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <section class="new_story">
+        <div class="block_name">
+            <p>最新故事</p>
+        </div>
+        <div class="story_carrier">
+            <img src="sources/srpc_home.jpg" class="story_cover">
+            <div class="story_intro" onclick="location.href='story.html';" style="cursor: pointer;">
+                <p class="vol">VOL.21</p>
+                <p class="title">花蓮東昇茶行</p>
+                <p class="subtitle">—來自後山的職人信念</p>
+                <div class="intro">
+                    <p>東昇茶行1973年成立以來，堅持採用無毒農業、自然農法種植茶葉，屢獲國際紅茶比賽冠軍肯定，近期更將咖啡和紅茶結合成創意茶「藏紅鴛鴦」.....<span class="que">點擊看更多</span></p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <seciton class="new_arr_carrier">
+
+        <div class="block_name">
+            <p>最新上架</p>
+        </div>
+        <section class="new_arr">
+            <div class="product_block">
+                <img src="sources/tai.jpg" alt="">
+                <div class="prod_text">
+                    <p class="brand">oqliq</p>
+                    <p class="name">Tai-chi Pocket Shirt</p>
+                    <p class="price">NT $7580</p>
+                </div>
+                <div class="atc">
+                    <p>加入購物車</p>
+                </div>
+            </div>
+
+            <div class="product_block" onclick="location.href='product.html';" style="cursor: pointer;">
+                <img src="sources/fuck.jpg" alt="">
+                <div class="prod_text">
+                    <p class="brand tc">來好</p>
+                    <p class="name">台台e04問候筷</p>
+                    <p class="price">NT $70</p>
+                </div>
+                <div class="atc">
+                    <p>加入購物車</p>
+                </div>
+            </div>
+
+            <div class="product_block">
+                <img src="sources/637681039222930000.jpg" alt="">
+                <div class="prod_text">
+                    <p class="brand">RD</p>
+                    <p class="name">N-3 utility cap</p>
+                    <p class="price">NT $1280</p>
+                </div>
+                <div class="atc">
+                    <p>加入購物車</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="gt_shop">
+            <p onclick="location.href='#';" style="cursor: pointer;">前往商店>>></p>
+        </div>
+    </seciton>
+
+    <section class="mobile m_new_arr">
+        <div class="block_name">
+            <p>最新上架</p>
+        </div>
+
+        <div class="m_new_arr_slick_wrapper">
+            <button class="prev s_arrow">&#706;</button>
+            <div class="m_new_arr_slick">
+                <div class="m_prod">
+                    <img src="sources/fuck.jpg" alt="" onclick="location.href='product.html';">
+                </div>
+                <div class="m_prod">
+                    <img src="sources/tai.jpg" alt="">
+                </div>
+                <div class="m_prod">
+                    <img src="sources/637681039222930000.jpg" alt="">
+                </div>
+            </div>
+            <button class="next s_arrow">&#707;</button>
+        </div>
+
+        
+    </section>
+    
+
+    <footer>
+        <div id="footer_links">
+
+            <div id="social_links">
+                <a href="https://www.facebook.com/" ><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="https://www.instagram.com/" ><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://www.youtube.com/" ><ion-icon name="logo-youtube"></ion-icon></a>
+            </div>
+
+            <div id="term_contact_links">
+                <a href="#" class="footer_link">關於我們</a>
+                <a href="#" class="footer_link">與我們聯絡</a>
+                <a href="#" class="footer_link">條款細則</a>
+            </div>
+
+        </div>
+
+        <div class="footer_address">
+            <p class="footer_text">104台北市中山區南京東路三段219號5樓</p>
+            <p class="footer_text">02-6969-6966</p>
+        </div>
+
+        <div class="mobile footer_content">
+            <div class="mobile_contact_links">
+                <a href="#" class="footer_link">關於我們</a>
+                <a href="#" class="footer_link">與我們聯絡</a>
+                <a href="#" class="footer_link">條款細則</a>
+            </div>
+
+            <div class="mobile_address">
+                <p>104<br>台北市中山區<br>南京東路三段<br>219號5樓<br>02 2712 0589</p>
+            </div>
+        </div>
+
+        <p class="footer_text">本網站為緯育TibaMe前端設計工程師班第68期學員專題作品，本平台僅供學習、展示之用。
+            若有侵權疑慮，您可以私訊[TibaMe-前端設計工程師養成班]，後續會由專人協助處理。
+            ※ [TibaMe-前端設計工程師養成班]請超連結https://www.facebook.com/webindex/</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/home.js"></script>
+</body>
+</html>

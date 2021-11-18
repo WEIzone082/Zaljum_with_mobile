@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/hamburgers.css">
+    <link rel="stylesheet" href="css/story_home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <img src="sources/logo.png" alt="logo" id="nav_logo" onclick="location.href='home.html';" style="cursor: pointer;">
+        
+        <div id="nav_link_carrier">
+            <a href="story_home.html" class="nav_links">最新故事</a>
+            <p class="door">|</p>
+            <a href="online_store.html" class="nav_links">線上商城</a>
+            <p class="door">|</p>
+            <a href="brand_map.html" class="nav_links">品牌地圖</a>
+            <p class="door">|</p>
+            <a href="about.html" class="nav_links">關於我們</a>
+        </div>
+
+        <div id="nav_user_bag">
+            <a href="#"><ion-icon name="person-outline"></ion-icon></a>
+            <a href="#"><ion-icon name="bag-outline"></ion-icon></a>
+        </div>
+
+        <div class="mobile nav_backboard">
+    
+            <img src="sources/mizu.png" onclick="location.href='home.html';" alt="" id="mobile_nav_logo">
+
+            <div class="mobile_nav_left">
+                <div class="mobile_user_bag">
+                    <a href="#"><ion-icon name="person-outline"></ion-icon></a>
+                    <a href="#"><ion-icon name="bag-outline"></ion-icon></a>
+                </div>
+    
+                <button class="hamburger hamburger--slider" type="button" id="nav_burger">
+                    <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+    </nav>
+
+    <div class="mobile nav_popper">
+        <div class="nav_pop_backboard">
+            <div class="nav_pop_links">
+                <div class="nav_pop_link_carrier">
+                    <a href="story_home.html" class="nav_pop_link">最新故事</a>
+                </div>
+                <div class="nav_pop_doors"></div>
+                <div class="nav_pop_link_carrier">
+                    <a href="online_store.html" class="nav_pop_link">線上商城</a>
+                    <div class="nav_store_cats">
+                        <a href="story_home.html" class="nav_cat">衣物服飾</a>
+                        <p>|</p>
+                        <a href="story_home.html" class="nav_cat">裝備配件</a>
+                        <p>|</p>
+                        <a href="story_home.html" class="nav_cat">食品雜貨</a>
+                    </div>
+                </div>
+                <div class="nav_pop_doors"></div>
+                <div class="nav_pop_link_carrier">
+                    <a href="brand_map.html" class="nav_pop_link">品牌地圖</a>
+                </div>
+                <div class="nav_pop_doors"></div>
+                <div class="nav_pop_link_carrier">
+                    <a href="about.html" class="nav_pop_link">關於我們</a>
+                </div>
+            </div>
+            <div class="nav_pop_social_block">
+                <div class="social_hint">
+                    <img src="sources/white zal text.svg" alt="" class="inline_logo_nav">
+                </div>
+                <div class="nav_pop_social_carrier">
+                    <div class="nav_social_icons"><ion-icon name="logo-facebook"></ion-icon></div>
+                    <div class="nav_social_icons"><ion-icon name="logo-instagram"></ion-icon></div>
+                    <div class="nav_social_icons"><ion-icon name="logo-youtube"></ion-icon></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="page_intro">
+        <p class="page_name">故事報導</p>
+        <p class="page_discription">三萬六千平方公里，二十二個直轄市，Zaljum走遍全台，
+            用影像與文字紀錄這塊土地上每一個用雙手為精神塑型的職人。</p>
+    </section>
+
+    <div class="s_bar">
+        
+        <div class="sorter">
+            <div class="sort_by">
+                <p>排列方式：</p>
+            </div>
+
+            <div class="sort">
+                <p class="sort_active">從新到舊</p>
+                <p>從舊到新</p>
+            </div>
+        </div>
+
+        <div class="searcher">
+
+            <form action="#">
+                <label for="story_search"><img src="sources/loupe.png" alt="" class="search_icon"></label>
+                <input type="text" id="story_search" placeholder="輸入文章關鍵字">
+            </form>
+        </div>
+
+    </div>
+
+    <main>
+
+        <div class="story_carrier">
+            <div class="story_block"  onclick="location.href='story.html';" style="cursor: pointer;">
+                <div class="story_cover_carrier">
+                    <img src="sources/story_cover.jpg" alt="" class="story_cover">
+                </div>
+                <div class="story_block_text">
+                    <p class="title_main">花蓮東昇茶行</p>
+                    <p class="title_sub">—來自後山的職人信念</p>
+                    <div class="story_discription">
+                        <p>為了響應有機的茶樹栽培，東昇茶行採用自然農法，復育「小綠葉蟬」防治茶蟲...... </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="story_block"  onclick="location.href='#';" style="cursor: pointer;">
+                <div class="story_cover_carrier">
+                    <img src="sources/283-400x280.jpg" alt="" class="story_cover">
+                </div>
+                <div class="story_block_text">
+                    <p class="title_main">報導2</p>
+                    <p class="title_sub">—副標題</p>
+                    <div class="story_discription">
+                        <p>敘述</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="story_block"  onclick="location.href='#';" style="cursor: pointer;">
+                <div class="story_cover_carrier">
+                    <img src="sources/283-400x280.jpg" alt="" class="story_cover">
+                </div>
+                <div class="story_block_text">
+                    <p class="title_main">報導2</p>
+                    <p class="title_sub">—副標題</p>
+                    <div class="story_discription">
+                        <p>敘述</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="story_block"  onclick="location.href='#';" style="cursor: pointer;">
+                <div class="story_cover_carrier">
+                    <img src="sources/283-400x280.jpg" alt="" class="story_cover">
+                </div>
+                <div class="story_block_text">
+                    <p class="title_main">報導2</p>
+                    <p class="title_sub">—副標題</p>
+                    <div class="story_discription">
+                        <p>敘述</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="story_block"  onclick="location.href='#';" style="cursor: pointer;">
+                <div class="story_cover_carrier">
+                    <img src="sources/283-400x280.jpg" alt="" class="story_cover">
+                </div>
+                <div class="story_block_text">
+                    <p class="title_main">報導2</p>
+                    <p class="title_sub">—副標題</p>
+                    <div class="story_discription">
+                        <p>敘述</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="story_block"  onclick="location.href='#';" style="cursor: pointer;">
+                <div class="story_cover_carrier">
+                    <img src="sources/283-400x280.jpg" alt="" class="story_cover">
+                </div>
+                <div class="story_block_text">
+                    <p class="title_main">報導2</p>
+                    <p class="title_sub">—副標題</p>
+                    <div class="story_discription">
+                        <p>敘述</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+    <div class="page_changer_wrapper">
+        <ul class="page_changer">
+            <li class="prev disabled">上頁</li>
+            <li class="pages active_page">1</li>
+            <li class="pages">2</li>
+            <li class="pages">3</li>
+            <li class="pages">4</li>
+            <li class="pages">5</li>
+            <li class="next">下頁</li>
+        </ul>
+    </div>
+
+    <a href="#" class="gotop">&uarr;</a>
+
+    <footer>
+        <div id="footer_links">
+
+            <div id="social_links">
+                <a href="https://www.facebook.com/" ><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="https://www.instagram.com/" ><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://www.youtube.com/" ><ion-icon name="logo-youtube"></ion-icon></a>
+            </div>
+
+            <div id="term_contact_links">
+                <a href="#" class="footer_link">關於我們</a>
+                <a href="#" class="footer_link">與我們聯絡</a>
+                <a href="#" class="footer_link">條款細則</a>
+            </div>
+
+        </div>
+
+        <div class="footer_address">
+            <p class="footer_text">104台北市中山區南京東路三段219號5樓</p>
+            <p class="footer_text">02-6969-6966</p>
+        </div>
+
+        <div class="mobile footer_content">
+            <div class="mobile_contact_links">
+                <a href="#" class="footer_link">關於我們</a>
+                <a href="#" class="footer_link">與我們聯絡</a>
+                <a href="#" class="footer_link">條款細則</a>
+            </div>
+
+            <div class="mobile_address">
+                <p>104<br>台北市中山區<br>南京東路三段<br>219號5樓<br>02 2712 0589</p>
+            </div>
+        </div>
+
+        <p class="footer_text">本網站為緯育TibaMe前端設計工程師班第68期學員專題作品，本平台僅供學習、展示之用。
+            若有侵權疑慮，您可以私訊[TibaMe-前端設計工程師養成班]，後續會由專人協助處理。
+            ※ [TibaMe-前端設計工程師養成班]請超連結https://www.facebook.com/webindex/</p>
+    </footer>
+
+    <script src="js/about.js"></script>
+</body>
+</html>
